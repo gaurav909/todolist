@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+form{
+  width: 1170px;
+  
+  margin: auto;
+  
+  display: flex;
+  gap: 20px;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+form input{
+  height: 40px;
+  font-size: 20px;
+  flex-basis: 80%;
+
+}
+form button{
+  height:40px;
+
+  flex-basis: 20%;
+}
+
+.outerdiv{
+  width: 1170px;
+  margin: auto;
+
+}
+.outerdiv ul{
+  margin: 0px;
+  padding: 0px;
+  margin-top: 50px;
+  list-style: none;
+}
+.outerdiv ul li{
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: left;
+  background-color: black;
+}
+
+.outerdiv ul li span{
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+}
+
+.completeTodo{
+  text-decoration: line-through;
+  color: red !important;
+  background-color: yellow !important;
+}
